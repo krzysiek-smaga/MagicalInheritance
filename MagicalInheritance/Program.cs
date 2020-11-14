@@ -10,6 +10,12 @@ namespace MagicalInheritance
     {
         static void Main(string[] args)
         {
+            Storm storm1 = new Storm("wind", false, "Zul'rajas");
+
+            Console.WriteLine(storm1.Announce());
+
+
+            Console.ReadLine();
         }
     }
 }
