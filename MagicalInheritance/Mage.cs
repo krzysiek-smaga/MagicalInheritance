@@ -13,7 +13,7 @@ namespace MagicalInheritance
         { }
 
         // Methods
-        public Storm CastRainStorm()
+        public virtual Storm CastRainStorm()
         {
             Storm castRainStorm = new Storm("rain", false, Title);
             return castRainStorm;

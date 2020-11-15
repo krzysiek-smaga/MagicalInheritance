@@ -28,6 +28,15 @@ namespace MagicalInheritance
             Console.WriteLine(storm3.Announce());
             Console.WriteLine(storm4.Announce());
 
+            Archmage archmage1 = new Archmage("Nielas Aran");
+
+            Storm storm5 = archmage1.CastWindStorm();
+            Storm storm6 = archmage1.CastRainStorm();
+            Storm storm7 = archmage1.CastLightingStorm();
+
+            Console.WriteLine(storm5.Announce());
+            Console.WriteLine(storm6.Announce());
+            Console.WriteLine(storm7.Announce());
 
 
             Console.ReadLine();
