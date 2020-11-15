@@ -14,6 +14,14 @@ namespace MagicalInheritance
 
             Console.WriteLine(storm1.Announce());
 
+            Pupil pupil1 = new Pupil("Mezil-kree");
+
+            Storm storm2 = pupil1.CastWindStorm();
+
+            Console.WriteLine(storm2.Announce());
+
+
+
 
             Console.ReadLine();
         }

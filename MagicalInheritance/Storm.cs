@@ -29,7 +29,11 @@ namespace MagicalInheritance
         // Methods
         public string Announce()
         {
-            return $"{Caster} cast a {Essence}!";
+            if (this.IsStrong)
+            {
+                return $"{Caster} cast a strong {Essence} storm!";
+            }
+            return $"{Caster} cast a weak {Essence} storm!";
         }
 
     }
