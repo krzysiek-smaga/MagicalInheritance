@@ -20,6 +20,13 @@ namespace MagicalInheritance
 
             Console.WriteLine(storm2.Announce());
 
+            Mage mage1 = new Mage("Gul’dan");
+
+            Storm storm3 = mage1.CastWindStorm();
+            Storm storm4 = mage1.CastRainStorm();
+
+            Console.WriteLine(storm3.Announce());
+            Console.WriteLine(storm4.Announce());
 
 
 
